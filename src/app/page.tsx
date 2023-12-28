@@ -15,7 +15,9 @@ export default function Home() {
           When I'm not coding, I write poetry, read books and listen to music.
           </h5>
           <h3 className="font-bold text-tertiary mt-5">
-            Get in touch <span className="font-normal">{"-->"}</span>
+            <a href="mailto:officiallakshya@gmail.com" className="group">
+              Get in touch <div className="group-hover:translate-x-2.5 transition font-normal inline-block">{"-->"}</div>
+            </a>
           </h3>
       </div>
     </main>
