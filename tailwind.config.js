@@ -17,10 +17,6 @@ module.exports = {
                     tertiary: "#28282D",
                 },
             },
-            backgroundImage: {
-                "hero-pattern":
-                    "linear-gradient(138deg, #1F1F22 23.51%, #181823 94.12%)",
-            },
         },
     },
     plugins: [],

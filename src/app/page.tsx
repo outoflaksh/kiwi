@@ -17,7 +17,7 @@ export default function Home() {
     },
   ]
   return (
-    <main className="bg-gradient-to-br from-background-primary to-background-secondary min-h-screen flex flex-col items-center justify-center">
+    <main className="min-h-screen flex flex-col items-center justify-center">
       <div className="tracking-tight text-xl px-56">
           <h3 className="text-secondary mt-5 text-2xl">
             Hello, I am

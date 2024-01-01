@@ -1,11 +1,12 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import BackgroundImg from './BackgroundImg'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Lakshya Malik',
-  description: 'Lakshya is a software engineer and this is his awesome website.',
+  description: 'Lakshya is a software engineer and this is his site.',
 }
 
 export default function RootLayout({
@@ -15,7 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <BackgroundImg />
+        {children}
+      </body>
     </html>
   )
 }
